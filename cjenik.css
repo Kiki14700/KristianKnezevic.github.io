@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url("pozadina2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 630px;
+  
+   
+
+  }
+
+  .nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    
+  }
+
+  .navbar{
+    background-image: linear-gradient(to right, rgb(255, 255, 153),rgb(255, 255, 0));
+    padding: 0;
+  
+  }
+
+  .navbar-nav li{
+    padding: 0 10px;
+  
+  }
+
+  .navbar-nav li a{
+    color:rgb(255, 0, 0) !important;
+    font-weight: 900;
+    float: right;
+    text-align: left !important;
+  }
+  
+  .navbar-toggler{
+    outline: none !important;
+  }
+
+
+  .tablica{
+      padding-top: 8%;
+      padding-bottom: 5%;
+      padding-left: 10%;
+      padding-right:10% ;
+  }
+
+  .display-3{
+      padding-top: 1%;
+      padding-left: 40%;
+      padding-right: 30%;
+      padding-bottom: 3%;
+      color:rgb(103, 190, 219);
+  
+  }
+
+  .kontakt{
+      padding-left: 12%;
+      padding-right: 12%;
+     
+  }
+
+  .footer{
+    background-image: linear-gradient(to right, rgba(136, 136, 132, 0.74),rgb(46, 46, 39)) ;
+    color: bisque;
+  }
+  
+  .footer p{
+    font-size: 20px;
+    font-style: oblique;
+  }
